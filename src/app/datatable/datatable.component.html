@@ -1,0 +1,11 @@
+<p>
+    <button type="button" class="btn waves-effect waves-light blue" (click)="loadData()">
+      Rerender
+    </button>
+    <button type="button" class="btn waves-effect waves-light blue" (click)="reset()">
+        reset
+      </button>
+  </p>
+  <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger"  class="row-border hover">
+
+  </table>
